@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Little Free Library</string>
+    <string name="contact">Contact</string>
+    <string name="contact_name">Amy Webb</string>
+    <string name="contact_email"><u>webb@ms.k12.il.us"</u></string>
+    <string name="address">Address</string>
+    <string name="address_text"><u>1108 Fairview Ave. Urbana IL 61801</u></string>
+    <string name="see_catalog">VIEW CATALOG</string>
+    <string name="number_of_books">%1$d Books</string>
+    <string name="number_of_books2">1 Book</string>
+    <string name="tab_text_1">Near Me</string>
+    <string name="tab_text_2">Favorites</string>
+    <string name="story">Story</string>
+    <string name="section_format">153%1$d Green St.</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string-array name="category_array">
+        <item>Fantasy</item>
+        <item>Mystery</item>
+        <item>Historical</item>
+        <item>Sci-fi</item>
+        <item>Romance</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="age_array">
+        <item>Adult</item>
+        <item>Young Adult</item>
+        <item>Children\'s</item>
+    </string-array>
+</resources>

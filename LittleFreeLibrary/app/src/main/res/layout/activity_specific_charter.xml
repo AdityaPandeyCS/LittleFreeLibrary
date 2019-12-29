@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="243dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/charter_image"
+                    android:layout_width="170dp"
+                    android:layout_height="215dp"
+                    android:layout_margin="25dp"
+                    android:src="@drawable/charter_14916" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginBottom="25dp">
+
+                    <TextView
+                        android:id="@+id/address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/address_text"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/address"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/address_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/center_vertical"
+                        android:layout_marginBottom="10dp"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:text="@string/address_text" />
+
+                    <!--This is the dumb way I had to center the text vertically-->
+                    <TextView
+                        android:id="@+id/contact"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/center_vertical"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/contact"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/contact_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact"
+                        android:text="@string/contact_name" />
+
+                    <TextView
+                        android:id="@+id/contact_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contact_name"
+                        android:background="?android:attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:text="@string/contact_email" />
+
+                    <View
+                        android:id="@+id/center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_centerVertical="true" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/story"
+                    android:paddingLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/story"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Charter_Description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:paddingHorizontal="20dp"
+                    android:paddingVertical="5dp"
+                    android:text="Example description Example description Example description Example description Example description Example description Example description Example description Example description Example description "
+                    android:textColor="#000000" />
+
+                <!--        <View-->
+                <!--            android:layout_width="fill_parent"-->
+                <!--            android:layout_height="2dp"-->
+                <!--            android:layout_marginTop="5dp"-->
+                <!--            android:background="@color/borderAccent" />-->
+
+                <!--        <com.google.android.material.button.MaterialButton-->
+                <!--            android:layout_width="wrap_content"-->
+                <!--            android:layout_height="wrap_content"-->
+                <!--            android:text="view catalog"-->
+                <!--            android:layout_gravity="center_horizontal"/>-->
+                <!--        <LinearLayout-->
+                <!--            android:id="@+id/see_books_button2"-->
+                <!--            android:layout_width="match_parent"-->
+                <!--            android:layout_height="match_parent"-->
+                <!--            android:orientation="horizontal"-->
+                <!--            android:background="?android:attr/selectableItemBackground"-->
+                <!--            android:clickable="true">-->
+
+                <!--            <TextView-->
+                <!--                android:id="@+id/textView"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:textColor="#000000"-->
+                <!--                android:padding="16dp"-->
+                <!--                android:layout_marginLeft="40dp"-->
+                <!--                android:layout_weight="5"-->
+                <!--                android:text="@string/see_catalog" />-->
+
+                <!--            <TextView-->
+                <!--                android:id="@+id/num_books"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_weight="1"-->
+                <!--                android:textColor="#000000" />-->
+
+                <!--            <ImageView-->
+                <!--                android:id="@+id/imageView"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_gravity="center"-->
+                <!--                android:layout_weight="1"-->
+                <!--                android:src="@drawable/ic_navigate_next_black_24dp" />-->
+                <!--        </LinearLayout>-->
+
+
+                <!--        <View-->
+                <!--            android:layout_width="fill_parent"-->
+                <!--            android:layout_height="2dp"-->
+                <!--            android:background="@color/borderAccent" />-->
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/see_books_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:padding="20dp"
+                android:layout_marginTop="15dp"
+
+                android:text="VIEW CATALOG"
+                android:textColor="#fff"
+                android:backgroundTint="@color/colorPrimary"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

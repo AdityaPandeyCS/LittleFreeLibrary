@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/catalog_menu"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_filter"
+        android:icon="@drawable/ic_filter_list_black_24dp"
+        android:title="Filter"
+        android:showAsAction="always"
+        app:showAsAction="always"
+        app:layout_collapseMode="none"/>
+
+    <!-- DO NOT CHANGE THAT^ IT WILL COLLAPSE THE MENU! -->
+
+</menu>

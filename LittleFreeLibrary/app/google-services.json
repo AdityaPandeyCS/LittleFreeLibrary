@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "260685355403",
+    "firebase_url": "https://loginlittlefreelibrary.firebaseio.com",
+    "project_id": "loginlittlefreelibrary",
+    "storage_bucket": "loginlittlefreelibrary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260685355403:android:f6509862a507992911f78e",
+        "android_client_info": {
+          "package_name": "com.periphery.littlefreelibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260685355403-rfkil16r5jbq3i8mdvaacvs52j5721rd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.periphery.littlefreelibrary",
+            "certificate_hash": "006c81d80d6e002d266273c1cda173218e63ae6d"
+          }
+        },
+        {
+          "client_id": "260685355403-0l2ghnj9tfanv7gqkt6uvd0l5khtecqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyGe7JmrPmRCctxiqpgaWinxNEQGMflYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260685355403-0l2ghnj9tfanv7gqkt6uvd0l5khtecqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
